@@ -1,0 +1,50 @@
+
+.card:hover{
+  box-shadow: 0 0.5rem 1rem rgba(54, 5, 5, 0.3); 
+  transition: box-shadow 0.3s ease;
+}
+.bill-ring-icon {
+  font-size: 100px;      
+  color: #FFD700;       
+  display: block;
+  margin: 20px;
+}
+.services-section {
+  background-color: rgba(250, 235, 215, 0.4); 
+}
+
+.service-icon {
+  color: #c5a880; 
+  font-size: 2.5rem; 
+}
+
+.contact-section {
+  background-color: rgba(250, 245, 230, 0.5); 
+}
+
+.social-icon i {
+  color: #c5a880; 
+  font-size: 2rem;
+  transition: color 0.3s;
+}
+
+.social-icon i:hover {
+  color: #a8875b; 
+}
+
+.contact-icon {
+  color: #c5a880;
+  font-size: 2rem;
+}
+@media (max-width: 768px) {
+  .card-img-overlay{
+    font-size: 1.5rem;
+  }
+
+  .bill-ring-icon {
+    display: none;
+  }
+    .service-icon {
+    font-size: 1.8rem; 
+  }
+}
